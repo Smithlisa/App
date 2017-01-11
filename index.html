@@ -1,0 +1,3 @@
+Resources are defined in individual YAML files under `src/resources`. The one-resource-per-file convention keeps the files manageable.
+ -
+ -A schema is provided for resources, and the resources are validated against it during testing. It can be found in `test/resource_schema.json`, and uses the [JSON Schema](http://json-schema.org/) syntax, with the [`jsonschema`](http://json-schema.org/) Node package for validation.
